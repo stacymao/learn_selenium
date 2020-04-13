@@ -25,7 +25,6 @@ public class DivGrowthCaculator {
                         ("/html/body/div[4]/div/main/div/div[4]/div/div/div[2]" +
                                 "/div[2]/div[2]/table/tbody/tr[1]/td[2]")).
                         getText().substring(1);
-
                 previDiv = driver.findElement(xpath("//html/body/div[4]/div/main" +
                         "/div/div[4]/div/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[2]")).
                         getText().substring(1);
